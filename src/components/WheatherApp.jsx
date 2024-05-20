@@ -80,7 +80,10 @@ const WheatherApp = () => {
 
 
     return (
-        <div className='min-h-screen bg-gradient-to-br from-slate-700 to-blue-900 flex items-center justify-center '>
+        <div className='min-h-screen bg-gradient-to-br from-slate-700 to-blue-900 flex flex-col items-center justify-center '>
+
+            <h1 className='text-white font-outfit text-3xl mb-10'>Wheather App </h1>
+
             <div className='border rounded-xl bg-gradient-to-tr from-slate-900 to-zinc-700 shadow-md shadow-slate-950'>
 
                 {/* search bar */}
